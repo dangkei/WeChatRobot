@@ -24,10 +24,7 @@ public class MaintainService {
 		for(String id:ids) {
 			idList.add(Integer.valueOf(id));
 		}
-		//if(null!=ids && idList.size()==0) {
-			messageDao.deleteBatch(idList);
-		//}
-
+		messageDao.deleteBatch(idList);
 	}
 	
 	/*

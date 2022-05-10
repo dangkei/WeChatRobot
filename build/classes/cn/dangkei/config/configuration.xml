@@ -16,5 +16,7 @@
   </environments>
   <mappers>
     <mapper resource="cn/dangkei/dao/mapper/Message.xml"/>
+    <mapper resource="cn/dangkei/dao/mapper/Command.xml"/>
+    <mapper resource="cn/dangkei/dao/mapper/CommandContent.xml"/>
   </mappers> 
 </configuration>
